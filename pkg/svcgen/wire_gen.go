@@ -6,14 +6,14 @@
 package svcgen
 
 import (
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/protoc"
+	"github.com/Ryo-not-rio/grapi/pkg/cli"
+	"github.com/Ryo-not-rio/grapi/pkg/gencmd"
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd"
+	"github.com/Ryo-not-rio/grapi/pkg/protoc"
 )
 
 import (
-	_ "github.com/izumin5210/grapi/pkg/svcgen/template"
+	_ "github.com/Ryo-not-rio/grapi/pkg/svcgen/template"
 )
 
 // Injectors from wire.go:

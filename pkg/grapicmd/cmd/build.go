@@ -7,10 +7,10 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/srvc/appctx"
 
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/di"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/module"
+	"github.com/Ryo-not-rio/grapi/pkg/cli"
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd"
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd/di"
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd/internal/module"
 )
 
 func splitOptions(args []string) ([]string, []string) {

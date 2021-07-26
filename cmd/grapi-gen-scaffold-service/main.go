@@ -6,8 +6,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	"github.com/izumin5210/grapi/pkg/svcgen"
+	"github.com/Ryo-not-rio/grapi/pkg/gencmd"
+	"github.com/Ryo-not-rio/grapi/pkg/svcgen"
 )
 
 func main() {

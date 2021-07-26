@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 
-	"github.com/izumin5210/grapi/pkg/grapiserver"
+	"github.com/Ryo-not-rio/grapi/pkg/grapiserver"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
@@ -23,4 +23,3 @@ func NewCorgeServiceServer() CorgeServiceServer {
 
 type corgeServiceServerImpl struct {
 }
-

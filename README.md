@@ -1,9 +1,9 @@
 # ![grapi](./grapi.png)
-[![CI](https://github.com/izumin5210/grapi/workflows/CI/badge.svg)](https://github.com/izumin5210/grapi/actions?workflow=CI)
-[![GoDoc](https://godoc.org/github.com/izumin5210/grapi/pkg/grapiserver?status.svg)](https://godoc.org/github.com/izumin5210/grapi/pkg/grapiserver)
-[![Go Report Card](https://goreportcard.com/badge/github.com/izumin5210/grapi)](https://goreportcard.com/report/github.com/izumin5210/grapi)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/izumin5210/grapi)](http://github.com/izumin5210/grapi/releases/latest)
-[![license](https://img.shields.io/github/license/izumin5210/grapi.svg)](./LICENSE)
+[![CI](https://github.com/Ryo-not-rio/grapi/workflows/CI/badge.svg)](https://github.com/Ryo-not-rio/grapi/actions?workflow=CI)
+[![GoDoc](https://godoc.org/github.com/Ryo-not-rio/grapi/pkg/grapiserver?status.svg)](https://godoc.org/github.com/Ryo-not-rio/grapi/pkg/grapiserver)
+[![Go Report Card](https://goreportcard.com/badge/github.com/Ryo-not-rio/grapi)](https://goreportcard.com/report/github.com/Ryo-not-rio/grapi)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Ryo-not-rio/grapi)](http://github.com/Ryo-not-rio/grapi/releases/latest)
+[![license](https://img.shields.io/github/license/Ryo-not-rio/grapi.svg)](./LICENSE)
 
 :open_mouth: A surprisingly easy API server and generator in gRPC and Go
 
@@ -19,7 +19,7 @@
 [![asciicast](https://asciinema.org/a/176280.png)](https://asciinema.org/a/176280)
 
 ## :warning: Migrate 0.4.x -> 0.5.x :warning:
-[grapiserver](https://godoc.org/github.com/izumin5210/grapi/pkg/grapiserver) will not handle os signals from v0.5.x.
+[grapiserver](https://godoc.org/github.com/Ryo-not-rio/grapi/pkg/grapiserver) will not handle os signals from v0.5.x.
 We recommend to use [`appctx.Global()`](https://godoc.org/github.com/srvc/appctx#Global) if you want to handle them.
 
 <details>
@@ -51,7 +51,7 @@ Some tools that are depended by grapi are updated. If you have a grapi project <
     - If you use [dep](https://golang.github.io/dep/), update `Gopkg.toml`
       ```diff
        [[constraint]]
-         name = "github.com/izumin5210/grapi"
+         name = "github.com/Ryo-not-rio/grapi"
       -  version = "0.3.0"
       +  version = "0.4.0"
       ```
@@ -114,7 +114,7 @@ grapi v0.3.0 has some breaking changes. If you have a grapi project <=v0.2.x, yo
     - If you use [dep](https://golang.github.io/dep/), update `Gopkg.toml`
       ```diff
        [[constraint]]
-         name = "github.com/izumin5210/grapi"
+         name = "github.com/Ryo-not-rio/grapi"
       -  version = "0.2.2"
       +  version = "0.3.0"
       ```
@@ -126,11 +126,11 @@ grapi v0.3.0 has some breaking changes. If you have a grapi project <=v0.2.x, yo
 1. Add defualt generator plugins:
     - ```
       gex \
-        --add github.com/izumin5210/grapi/cmd/grapi \
-        --add github.com/izumin5210/grapi/cmd/grapi-gen-command \
-        --add github.com/izumin5210/grapi/cmd/grapi-gen-service \
-        --add github.com/izumin5210/grapi/cmd/grapi-gen-scaffold-service \
-        --add github.com/izumin5210/grapi/cmd/grapi-gen-type
+        --add github.com/Ryo-not-rio/grapi/cmd/grapi \
+        --add github.com/Ryo-not-rio/grapi/cmd/grapi-gen-command \
+        --add github.com/Ryo-not-rio/grapi/cmd/grapi-gen-service \
+        --add github.com/Ryo-not-rio/grapi/cmd/grapi-gen-scaffold-service \
+        --add github.com/Ryo-not-rio/grapi/cmd/grapi-gen-type
       ```
 1. Add protoc plugins via gex
     - ```
@@ -249,11 +249,11 @@ $ grapi build
 
 1. **grapi**
     - Linux
-        - `curl -Lo grapi https://github.com/izumin5210/grapi/releases/download/v0.2.2/grapi_linux_amd64 && chmod +x grapi && sudo mv grapi /usr/local/bin`
+        - `curl -Lo grapi https://github.com/Ryo-not-rio/grapi/releases/download/v0.2.2/grapi_linux_amd64 && chmod +x grapi && sudo mv grapi /usr/local/bin`
     - macOS
         - `brew install izumin5210/tools/grapi`
     - others
-        - `go get github.com/izumin5210/grapi/cmd/grapi`
+        - `go get github.com/Ryo-not-rio/grapi/cmd/grapi`
 1. **dep** or **Modules**
     - [dep](https://golang.github.io/dep/)
         - macOS

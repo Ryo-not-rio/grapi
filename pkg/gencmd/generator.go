@@ -11,8 +11,8 @@ import (
 	"github.com/spf13/afero"
 	"go.uber.org/zap"
 
+	"github.com/Ryo-not-rio/grapi/pkg/cli"
 	"github.com/izumin5210/clig/pkg/clib"
-	"github.com/izumin5210/grapi/pkg/cli"
 )
 
 type Generator interface {

@@ -7,10 +7,10 @@ import (
 	"github.com/spf13/cobra"
 	"go.uber.org/zap"
 
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd"
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd/di"
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd/internal/usecase"
 	"github.com/izumin5210/clig/pkg/clib"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/di"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/usecase"
 )
 
 func newInitCommand(ctx *grapicmd.Ctx) *cobra.Command {

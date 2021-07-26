@@ -3,8 +3,8 @@
 package gencmd
 
 import (
+	"github.com/Ryo-not-rio/grapi/pkg/cli"
 	"github.com/google/wire"
-	"github.com/izumin5210/grapi/pkg/cli"
 )
 
 func newApp(*Command) (*App, error) {

@@ -4,10 +4,10 @@ import (
 	"go/build"
 	"testing"
 
+	"github.com/Ryo-not-rio/grapi/pkg/cli"
+	"github.com/Ryo-not-rio/grapi/pkg/gencmd"
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd/util/fs"
 	"github.com/bradleyjkemp/cupaloy/v2"
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	"github.com/izumin5210/grapi/pkg/grapicmd/util/fs"
 	"github.com/spf13/afero"
 )
 

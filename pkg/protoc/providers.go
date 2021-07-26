@@ -12,7 +12,7 @@ import (
 	"github.com/spf13/afero"
 	"go.uber.org/zap"
 
-	"github.com/izumin5210/grapi/pkg/cli"
+	"github.com/Ryo-not-rio/grapi/pkg/cli"
 )
 
 var (

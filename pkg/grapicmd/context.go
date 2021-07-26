@@ -10,10 +10,10 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
+	"github.com/Ryo-not-rio/grapi/pkg/cli"
+	"github.com/Ryo-not-rio/grapi/pkg/protoc"
 	"github.com/izumin5210/clig/pkg/clib"
 	"github.com/izumin5210/execx"
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/protoc"
 )
 
 // Ctx contains the runtime context of grpai.

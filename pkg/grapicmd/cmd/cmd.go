@@ -4,8 +4,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd"
 	"github.com/izumin5210/clig/pkg/clib"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
 )
 
 // NewGrapiCommand creates a new command object.

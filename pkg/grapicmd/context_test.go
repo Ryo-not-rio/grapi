@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/afero"
 
+	"github.com/Ryo-not-rio/grapi/pkg/cli"
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd"
 	"github.com/izumin5210/clig/pkg/clib"
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
 )
 
 func TestCtx(t *testing.T) {

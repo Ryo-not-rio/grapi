@@ -9,10 +9,10 @@ import (
 	"github.com/spf13/afero"
 	"go.uber.org/zap"
 
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd/internal/module"
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd/util/fs"
 	"github.com/izumin5210/clig/pkg/clib"
 	"github.com/izumin5210/execx"
-	"github.com/izumin5210/grapi/pkg/grapicmd/internal/module"
-	"github.com/izumin5210/grapi/pkg/grapicmd/util/fs"
 )
 
 // NewLoader creates a new ScriptLoader instance.

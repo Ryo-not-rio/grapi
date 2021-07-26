@@ -3,8 +3,8 @@ package foo
 import (
 	"context"
 
+	"github.com/Ryo-not-rio/grapi/pkg/grapiserver"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/izumin5210/grapi/pkg/grapiserver"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
@@ -39,4 +39,3 @@ func (s *barBazServiceServerImpl) DeleteBarBaz(ctx context.Context, req *foo_pb.
 	// TODO: Not yet implemented.
 	return nil, status.Error(codes.Unimplemented, "TODO: You should implement it!")
 }
-

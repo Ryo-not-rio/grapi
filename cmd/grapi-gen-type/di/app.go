@@ -1,8 +1,8 @@
 package di
 
 import (
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	"github.com/izumin5210/grapi/pkg/protoc"
+	"github.com/Ryo-not-rio/grapi/pkg/gencmd"
+	"github.com/Ryo-not-rio/grapi/pkg/protoc"
 )
 
 type CreateAppFunc func(*gencmd.Command) (*App, error)

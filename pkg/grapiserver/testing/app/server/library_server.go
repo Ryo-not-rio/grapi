@@ -3,12 +3,12 @@ package server
 import (
 	"context"
 
+	"github.com/Ryo-not-rio/grapi/pkg/grapiserver"
 	"github.com/golang/protobuf/ptypes/empty"
-	"github.com/izumin5210/grapi/pkg/grapiserver"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	api_pb "github.com/izumin5210/grapi/pkg/grapiserver/testing/api"
+	api_pb "github.com/Ryo-not-rio/grapi/pkg/grapiserver/testing/api"
 )
 
 // NewLibraryServiceServer creates a new LibraryServiceServer instance.

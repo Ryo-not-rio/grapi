@@ -6,14 +6,14 @@ import (
 
 	"github.com/spf13/afero"
 
+	"github.com/Ryo-not-rio/grapi/pkg/cli"
+	"github.com/Ryo-not-rio/grapi/pkg/gencmd"
+	gencmdtesting "github.com/Ryo-not-rio/grapi/pkg/gencmd/testing"
+	"github.com/Ryo-not-rio/grapi/pkg/grapicmd"
+	"github.com/Ryo-not-rio/grapi/pkg/protoc"
+	"github.com/Ryo-not-rio/grapi/pkg/svcgen"
+	svcgentesting "github.com/Ryo-not-rio/grapi/pkg/svcgen/testing"
 	"github.com/izumin5210/clig/pkg/clib"
-	"github.com/izumin5210/grapi/pkg/cli"
-	"github.com/izumin5210/grapi/pkg/gencmd"
-	gencmdtesting "github.com/izumin5210/grapi/pkg/gencmd/testing"
-	"github.com/izumin5210/grapi/pkg/grapicmd"
-	"github.com/izumin5210/grapi/pkg/protoc"
-	"github.com/izumin5210/grapi/pkg/svcgen"
-	svcgentesting "github.com/izumin5210/grapi/pkg/svcgen/testing"
 )
 
 func TestRun(t *testing.T) {
