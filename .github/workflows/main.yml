@@ -29,6 +29,6 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: ${{ env.cc_id }}
         with:
-          coverageCommand: go test ./... -coverprofile=c.out
+          coverageCommand: go test -v ./... -coverprofile=c.out
           debug: true
           prefix: github.com/Ryo-not-rio/grapi
