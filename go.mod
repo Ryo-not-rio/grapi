@@ -1,4 +1,4 @@
-module github.com/izumin5210/grapi
+module github.com/Ryo-not-rio/grapi
 
 go 1.12
 
@@ -14,8 +14,8 @@ require (
 	github.com/izumin5210/clig v0.3.1
 	github.com/izumin5210/execx v0.1.0
 	github.com/izumin5210/gex v0.6.0
+	github.com/Ryo-not-rio/grapi v0.0.0-20180308033659-04140366298a
 	github.com/jinzhu/inflection v0.0.0-20180308033659-04140366298a
-	github.com/onsi/gomega v1.4.2 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/rakyll/statik v0.1.7
 	github.com/serenize/snaker v0.0.0-20171204205717-a683aaf2d516
@@ -27,12 +27,9 @@ require (
 	github.com/srvc/appctx v0.1.0
 	github.com/tcnksm/go-input v0.0.0-20180404061846-548a7d7a8ee8
 	go.uber.org/zap v1.10.0
-	golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586 // indirect
 	golang.org/x/net v0.0.0-20190827160401-ba9fcec4b297
 	golang.org/x/sync v0.0.0-20190423024810-112230192c58
 	golang.org/x/sys v0.0.0-20191118133127-cf1e2d577169 // indirect
-	golang.org/x/text v0.3.2 // indirect
-	golang.org/x/tools v0.0.0-20190828213141-aed303cbaa74 // indirect
 	google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
 	google.golang.org/grpc v1.21.0
 )
